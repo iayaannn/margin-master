@@ -1,74 +1,334 @@
-# Margin Master
+<div align="center">
 
-Margin Master is a comprehensive, local-first mobile application designed to help creators, makers, and small businesses accurately calculate their product costs and determine optimal profit margins. Built with React Native and Expo, it provides an intuitive interface to track everything from raw materials to electricity usage.
+# 📈 Margin Master
 
-## Features
+### Offline-first Product Cost & Profit Margin Calculator for Creators, Makers & Small Businesses
 
-- 📦 **Material Management**: Track bulk materials, their costs, and units of measurement.
-- ⚡️ **Appliance & Electricity Tracking**: Add appliances with their wattage to calculate precise electricity costs based on usage hours.
-- 👷 **Labor & Overhead**: Factor in labor hours, hourly rates, packaging costs, and overhead percentages.
-- 💰 **Advanced Profit Calculation**: A built-in cost engine automatically calculates total cost, desired profit margins, and the final selling price.
-- 🔒 **Local-First & Secure**: All data (Materials, Appliances, Products) is stored locally on your device using `AsyncStorage`. User profiles and sensitive data are secured using Expo `SecureStore` and cryptographic hashing.
+<p>
+<img src="https://img.shields.io/badge/React%20Native-0.81-61DAFB?logo=react" />
+<img src="https://img.shields.io/badge/Expo-SDK%2054-000020?logo=expo" />
+<img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript" />
+<img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android-success" />
+<img src="https://img.shields.io/badge/Storage-Offline%20First-brightgreen" />
+<img src="https://img.shields.io/badge/License-MIT-blue" />
+</p>
 
-## Tech Stack
+*A modern mobile application that accurately calculates manufacturing costs, profit margins, and recommended selling prices—all while working completely offline.*
 
-- **Framework**: [React Native](https://reactnative.dev/) & [Expo](https://expo.dev/) (SDK 54)
-- **Routing**: [Expo Router](https://docs.expo.dev/router/introduction/) for file-based routing
-- **Storage**: `@react-native-async-storage/async-storage` for general data, `expo-secure-store` for sensitive profile data
-- **Styling**: React Native StyleSheet (with custom theme tokens)
-- **Language**: TypeScript
+</div>
 
-## Project Structure
+---
+
+# 📖 Overview
+
+Pricing products manually often leads to incorrect profit calculations because hidden costs like electricity, labor, packaging, and overhead are ignored.
+
+**Margin Master** solves this problem by providing an intuitive mobile application that calculates the true production cost of every product before recommending a profitable selling price.
+
+Designed primarily for:
+
+- 🛍️ Small Businesses
+- 🎨 Handmade Product Sellers
+- 🕯️ Candle Makers
+- 🧵 Craft Businesses
+- 🍰 Home Bakers
+- 🧼 Soap Makers
+- 🧑‍💼 Independent Creators
+
+---
+
+# ✨ Features
+
+## 📦 Material Management
+
+- Store raw materials
+- Track bulk quantities
+- Automatic per-unit cost calculation
+- Edit & delete materials
+
+---
+
+## ⚡ Electricity Cost Calculation
+
+- Store appliances
+- Configure wattage
+- Calculate electricity usage
+- Supports custom electricity rates
+
+---
+
+## 👷 Labor & Packaging
+
+Include:
+
+- Labor hours
+- Hourly labor rate
+- Packaging costs
+- Additional production expenses
+
+---
+
+## 📊 Smart Cost Engine
+
+Automatically calculates:
+
+- Material Cost
+- Electricity Cost
+- Labor Cost
+- Packaging Cost
+- Overhead Cost
+- Total Manufacturing Cost
+- Profit Amount
+- Recommended Selling Price
+
+---
+
+## 📱 Offline First
+
+No internet required.
+
+Everything works locally using AsyncStorage.
+
+No backend.
+No cloud dependency.
+Fast and private.
+
+---
+
+## 🔒 Secure Storage
+
+Sensitive profile information is stored securely using:
+
+- Expo Secure Store
+- Cryptographic hashing
+
+---
+
+# 📸 Screenshots
+
+> Screenshots coming soon.
+
+| Dashboard | Products |
+|------------|----------|
+| Image | Image |
+
+| Materials | Calculator |
+|------------|------------|
+| Image | Image |
+
+---
+
+# 🎥 Demo
+
+> Demo GIF coming soon.
+
+---
+
+# 🏗 Architecture
 
 ```
-├── app/                  # Expo Router file-based screens (tabs, onboarding, etc.)
-│   ├── (tabs)/           # Main tab navigation
-│   ├── appliances/       # Appliance management screens
-│   ├── material/         # Material management screens
-│   └── product/          # Product and margin calculation screens
-├── assets/               # Static assets (images, icons, fonts)
-├── src/                  # Core application logic and state
-│   ├── components/       # Reusable UI components
-│   ├── hooks/            # Custom React hooks
-│   ├── store.ts          # Local database, cost engine, and state management
-│   └── theme.ts          # Application theme and styling tokens
-└── package.json          # Project dependencies and scripts
+                React Native
+                     │
+                 Expo Router
+                     │
+              Local Application
+                     │
+        AsyncStorage + SecureStore
+                     │
+              Cost Calculation Engine
+                     │
+               Product Pricing
+                     │
+                    UI
 ```
 
-## Getting Started
+---
 
-### Prerequisites
+# 🛠 Tech Stack
 
-Ensure you have [Node.js](https://nodejs.org/) installed, as well as the Expo Go app on your physical device, or an iOS Simulator/Android Emulator set up on your machine.
+| Category | Technology |
+|-----------|------------|
+| Framework | React Native |
+| Platform | Expo SDK 54 |
+| Language | TypeScript |
+| Navigation | Expo Router |
+| Storage | AsyncStorage |
+| Secure Storage | Expo Secure Store |
+| Styling | React Native StyleSheet |
 
-### Installation
+---
 
-1. Clone the repository and navigate to the project directory.
-2. Install dependencies:
+# 📂 Project Structure
 
-   ```bash
-   npm install
-   ```
+```
+.
+├── app/
+│   ├── (tabs)/
+│   ├── appliances/
+│   ├── material/
+│   └── product/
+│
+├── assets/
+│
+├── constants/
+│
+├── scripts/
+│
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── utils/
+│   ├── store.ts
+│   └── theme.ts
+│
+├── app.json
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-### Running the App
+---
 
-Start the Expo development server:
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/iayaannn/margin-master.git
+```
+
+Move into the project
+
+```bash
+cd margin-master
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the Expo development server
 
 ```bash
 npx expo start
 ```
 
-In the terminal output, you'll find a QR code.
-- **Physical Device**: Scan the QR code with the Expo Go app (Android) or the default Camera app (iOS).
-- **Simulator/Emulator**: Press `i` to open in iOS simulator, or `a` to open in Android emulator.
+---
 
-## How the Cost Engine Works
+# 🚀 Running the App
 
-The core of Margin Master is its local cost engine (`src/store.ts`). When calculating a product's price, it considers:
+Run using:
 
-1. **Material Cost**: `(Bulk Cost / Bulk Quantity) * Quantity Used`
-2. **Electricity Cost**: `((Appliance Wattage * Hours Used) / 1000) * Cost per kWh`
-3. **Labor Cost**: `Labor Hours * Labor Rate`
-4. **Overhead**: `(Material + Electricity + Labor + Packaging) * Overhead Percentage`
+- 📱 Expo Go
+- 🍎 iOS Simulator
+- 🤖 Android Emulator
 
-It then applies your desired profit margin percentage to give you a final recommended selling price!
+After starting Expo:
+
+```
+i → Open iOS Simulator
+
+a → Open Android Emulator
+
+Scan QR → Open on physical device
+```
+
+---
+
+# 🧮 Cost Calculation Engine
+
+### Material Cost
+
+```
+(Bulk Cost ÷ Bulk Quantity) × Quantity Used
+```
+
+### Electricity Cost
+
+```
+((Wattage × Hours Used) ÷ 1000) × Cost per kWh
+```
+
+### Labor Cost
+
+```
+Labor Hours × Hourly Rate
+```
+
+### Manufacturing Cost
+
+```
+Material
++ Electricity
++ Labor
++ Packaging
++ Overhead
+```
+
+### Selling Price
+
+```
+Manufacturing Cost
++
+Desired Profit Margin
+```
+
+---
+
+# 💡 Why I Built Margin Master
+
+Many creators and small businesses still rely on notebooks, spreadsheets, or rough estimates to price their products. This often results in inconsistent pricing and overlooked production costs.
+
+Margin Master was built to simplify this process through an offline-first mobile application that accurately calculates manufacturing expenses and recommends profitable selling prices.
+
+---
+
+# 🚀 Roadmap
+
+Planned features include:
+
+- Cloud Synchronization
+- Multi-device Support
+- PDF Export
+- Inventory Management
+- Barcode Scanner
+- Sales Analytics
+- Backup & Restore
+- Dark Mode
+- Currency Support
+- GST/Tax Calculation
+
+---
+
+# 🤝 Contributing
+
+Contributions, ideas, and feature requests are always welcome.
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+**Mohd Ayan**
+
+GitHub: https://github.com/iayaannn
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star!
+
+</div>
