@@ -18,7 +18,7 @@
 
 ---
 
-# 📖 Overview
+#  Overview
 
 Pricing products manually often leads to incorrect profit calculations because hidden costs like electricity, labor, packaging, and overhead are ignored.
 
@@ -47,7 +47,7 @@ Designed primarily for:
 
 ---
 
-## ⚡ Electricity Cost Calculation
+##  Electricity Cost Calculation
 
 - Store appliances
 - Configure wattage
@@ -100,20 +100,6 @@ Sensitive profile information is stored securely using:
 
 - Expo Secure Store
 - Cryptographic hashing
-
----
-
-#  Screenshots
-
-> Screenshots coming soon.
-
-| Dashboard | Products |
-|------------|----------|
-| Image | Image |
-
-| Materials | Calculator |
-|------------|------------|
-| Image | Image |
 
 ---
 
