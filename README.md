@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📈 Margin Master
+# Margin Master
 
 ### Offline-first Product Cost & Profit Margin Calculator for Creators, Makers & Small Businesses
 
@@ -10,7 +10,6 @@
 <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript" />
 <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android-success" />
 <img src="https://img.shields.io/badge/Storage-Offline%20First-brightgreen" />
-<img src="https://img.shields.io/badge/License-MIT-blue" />
 </p>
 
 *A modern mobile application that accurately calculates manufacturing costs, profit margins, and recommended selling prices—all while working completely offline.*
@@ -27,19 +26,19 @@ Pricing products manually often leads to incorrect profit calculations because h
 
 Designed primarily for:
 
-- 🛍️ Small Businesses
-- 🎨 Handmade Product Sellers
-- 🕯️ Candle Makers
-- 🧵 Craft Businesses
-- 🍰 Home Bakers
-- 🧼 Soap Makers
-- 🧑‍💼 Independent Creators
+-  Small Businesses
+-  Handmade Product Sellers
+-  Candle Makers
+-  Craft Businesses
+-  Home Bakers
+-  Soap Makers
+-  Independent Creators
 
 ---
 
-# ✨ Features
+#  Features
 
-## 📦 Material Management
+##  Material Management
 
 - Store raw materials
 - Track bulk quantities
@@ -57,7 +56,7 @@ Designed primarily for:
 
 ---
 
-## 👷 Labor & Packaging
+##  Labor & Packaging
 
 Include:
 
@@ -68,7 +67,7 @@ Include:
 
 ---
 
-## 📊 Smart Cost Engine
+##  Smart Cost Engine
 
 Automatically calculates:
 
@@ -83,7 +82,7 @@ Automatically calculates:
 
 ---
 
-## 📱 Offline First
+##  Offline First
 
 No internet required.
 
@@ -95,7 +94,7 @@ Fast and private.
 
 ---
 
-## 🔒 Secure Storage
+##  Secure Storage
 
 Sensitive profile information is stored securely using:
 
@@ -104,7 +103,7 @@ Sensitive profile information is stored securely using:
 
 ---
 
-# 📸 Screenshots
+#  Screenshots
 
 > Screenshots coming soon.
 
@@ -118,13 +117,8 @@ Sensitive profile information is stored securely using:
 
 ---
 
-# 🎥 Demo
 
-> Demo GIF coming soon.
-
----
-
-# 🏗 Architecture
+#  Architecture
 
 ```
                 React Native
@@ -144,7 +138,7 @@ Sensitive profile information is stored securely using:
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 | Category | Technology |
 |-----------|------------|
@@ -158,7 +152,7 @@ Sensitive profile information is stored securely using:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 .
@@ -189,7 +183,7 @@ Sensitive profile information is stored securely using:
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 Clone the repository
 
@@ -217,13 +211,13 @@ npx expo start
 
 ---
 
-# 🚀 Running the App
+#  Running the App
 
 Run using:
 
-- 📱 Expo Go
-- 🍎 iOS Simulator
-- 🤖 Android Emulator
+-  Expo Go
+-  iOS Simulator
+-  Android Emulator
 
 After starting Expo:
 
@@ -237,7 +231,7 @@ Scan QR → Open on physical device
 
 ---
 
-# 🧮 Cost Calculation Engine
+#  Cost Calculation Engine
 
 ### Material Cost
 
@@ -285,7 +279,7 @@ Margin Master was built to simplify this process through an offline-first mobile
 
 ---
 
-# 🚀 Roadmap
+#  Roadmap
 
 Planned features include:
 
@@ -302,7 +296,7 @@ Planned features include:
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions, ideas, and feature requests are always welcome.
 
@@ -311,11 +305,6 @@ Contributions, ideas, and feature requests are always welcome.
 3. Commit your changes
 4. Open a Pull Request
 
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
