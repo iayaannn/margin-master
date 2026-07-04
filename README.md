@@ -18,7 +18,7 @@
 
 ---
 
-#  Overview
+# Overview
 
 Pricing products manually often leads to incorrect profit calculations because hidden costs like electricity, labor, packaging, and overhead are ignored.
 
