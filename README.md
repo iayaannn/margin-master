@@ -257,7 +257,7 @@ Desired Profit Margin
 
 ---
 
-# 💡 Why I Built Margin Master
+#  Why I Built Margin Master
 
 Many creators and small businesses still rely on notebooks, spreadsheets, or rough estimates to price their products. This often results in inconsistent pricing and overlooked production costs.
 
@@ -294,7 +294,7 @@ Contributions, ideas, and feature requests are always welcome.
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Mohd Ayan**
 
